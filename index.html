@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MobiDev Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "RmhHm35rWpDuJmCI0",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <span id="logo">MD</span>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <img src="assets/profile.jpg" class="profile-pic" alt="MobiDev photo">
+        <div>
+            <div>
+                <h1>Chinmaya Pradhan</h1>
+                <h2>MobiDev</h2>
+            </div>
+            <div class="tag-line">
+                <h3>Let’s collaborate! Explore my projects or reach out to discuss new opportunities.</h3>
+                <p>Transforming Ideas Into Code ||
+
+                    Passionate Software Developer <br>
+
+                    Building Impactful Digital Solutions ||
+
+                    Turning Innovation Into Reality</p>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:yourmail@gmail.com" class="gmail-icon" aria-label="Gmail">
+                        <i class="fas fa-envelope"></i>
+                        <span class="tooltip">pradhanchinmaya0118@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="android-logo">
+            <svg width="96" height="60" viewBox="0 0 96 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Semi-circle head -->
+                <path d="M16 48 a32 32 0 0 1 64 0" fill="#3DDC84" />
+                <!-- Antenna left (group for transform) -->
+                <g class="antenna-left">
+                    <rect x="30" y="2" width="4" height="18" rx="2" fill="#3DDC84" />
+                </g>
+                <!-- Antenna right (group for transform) -->
+                <g class="antenna-right">
+                    <rect x="62" y="2" width="4" height="18" rx="2" fill="#3DDC84" />
+                </g>
+                <!-- Eyes group for anim -->
+                <g class="android-eyes">
+                    <circle class="eye" cx="40" cy="32" r="4" fill="#fff" />
+                    <circle class="eye" cx="56" cy="32" r="4" fill="#fff" />
+                </g>
+            </svg>
+        </div>
+
+
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-boxes">
+            <div class="about-card">
+                <h3>Experience</h3>
+                <p>Multiple software development projects</p>
+            </div>
+            <div class="about-card">
+                <h3>Experience</h3>
+                <p>Completed Internship at MSC HireRech as a Software Developer</p>
+            </div>
+            <div class="about-card">
+                <h3>Education</h3>
+                <p>Bachelor’s in Computer Applications</p>
+            </div>
+        </div>
+        <p class="about-desc">
+            I am passionate about software development and love crafting reliable and efficient applications. My
+            expertise ranges from <b>Backend</b> (Spring Boot, MySQL, MongoDB) to <b>Frontend</b> (Compose
+            Multiplatform, Kotlin Multiplatform,HTML & CSS ),
+            including full-stack web and Multiplatform apps.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/projects/Screenshot 2025-07-31 102057.png" alt="student-management" />
+                <h3>Student Management App</h3>
+                <p>End-to-end student info tracking (Full Stack)</p>
+            </div>
+            <div class="project-card invoice">
+                <img src="assets/projects/Screenshot 2025-07-31 103229.png" alt="invoice-app" />
+                <h3>Invoice Making App</h3>
+                <p>Effortless invoice creation & tracking</p>
+            </div>
+            <div class="project-card">
+                <img src="assets/projects/account.png" alt="architect-consultant" />
+                <h3>Architect Consultant App</h3>
+                <p>Streamlines client/design management</p>
+            </div>
+            <div class="project-card">
+                <img src="assets/projects/Screenshot 2025-07-31 103229.png" alt="badminton-score" />
+                <h3>Badminton Score Counter</h3>
+                <p>Real-time badminton match scoring</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="languages_list">
+                <h4>Programming Languages</h4>
+                <ul>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+                            alt="Kotlin" /> Kotlin</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                            alt="Java" /> Java</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" /> C</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++" /> C++</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                            alt="HTML" /> HTML</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                            alt="CSS" /> CSS</li>
+                </ul>
+            </div>
+            <div class="languages_list">
+                <h4>Frontend</h4>
+                <ul>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+                            alt="Jetpack Compose" />Kotlin Multiplatform</li>
+                </ul>
+                <h4>Backend</h4>
+                <ul>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                            alt="Spring Boot" /> Spring Boot</li>
+                </ul>
+            </div>
+            <div class="languages_list">
+                <h4>Databases</h4>
+                <ul>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                            alt="MySQL" /> MySQL</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                            alt="MongoDB" /> MongoDB</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-icons">
+
+            <a href="https://www.instagram.com/chinmaya._.33/" target="_blank" aria-label="Instagram">
+                <span class="icon-circle"><i class="fab fa-instagram"></i></span>
+            </a>
+            <a href="https://www.linkedin.com/in/chinmaya-pradhan-475686291/" target="_blank" aria-label="LinkedIn">
+                <span class="icon-circle"><i class="fab fa-linkedin-in"></i></span>
+            </a>
+            <a href="#" class="gmail-icon" aria-label="Gmail">
+                <span class="icon-circle">
+                    <i class="fas fa-envelope"></i>
+                    <span class="tooltip">pradhanchinmaya0118@gmail.com</span>
+                </span>
+            </a>
+
+        </div>
+        <h2 class="contact-title">Want to get in touch?<br>Drop me a line</h2>
+        <form id="contact-form">
+            <div class="row">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Enter your name" required />
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your email" required />
+                </div>
+                <div class="input-group">
+                    <label for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text" placeholder="Enter Subject" required />
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button class="contact-submit" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MobiDev. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
